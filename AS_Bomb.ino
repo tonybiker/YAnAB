@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////
-// Codice ASBomb                                                         //
-// Timer per Airsoft                                                     //
+// Codice YAnAB                                                        //
+// Yet Another Airsoft bomb                                                     //
 // Modalita' : Disinnesco (combinazione) Domination (Mantieni il presidio) //
 // Accessori: Sensore di prossimitÃ , sensore di scuotimento, antitamper  //
 // STL e BOM su Thingverse: link al progetto                             //
@@ -42,7 +42,7 @@ void setup() {
   // Bootstrap
   ////////////////////////////
   Serial.begin(9600);              // initialize serial 
-  lcd.init();                      // initialize the lcd 
+  lcd.begin();                      // initialize the lcd 
   pinMode (PinBatt, INPUT);        // initialize pin controllo batteria
   
  lcd.clear(); 
